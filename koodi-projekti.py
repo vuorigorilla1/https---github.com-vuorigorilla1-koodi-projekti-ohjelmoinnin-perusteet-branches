@@ -24,3 +24,4 @@ while arvaukset < 5:
 if arvaukset == 6:
   print("Liian monta arvausta")
   
+  
