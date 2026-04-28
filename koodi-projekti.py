@@ -8,7 +8,7 @@ while arvaukset < 5:
   arvaus = int(input("Anna luku väliltä 1-100: "))
   if arvaus == vastaus:
     print("----")
-    print("Oikein, voitit tämän paskan pelin")
+    print("Oikein, voitit pelin")
     print("----")
     break
   if arvaus < vastaus:
@@ -18,6 +18,8 @@ while arvaukset < 5:
     arvaukset += 1
   elif arvaus > vastaus:
     print("----")
-    print("Liian suuri luku idiootti")
+    print("Liian suuri luku")
     print("----")
     arvaukset += 1
+if arvaukset == 6:
+  print("")
