@@ -22,4 +22,5 @@ while arvaukset < 5:
     print("----")
     arvaukset += 1
 if arvaukset == 6:
-  print("")
+  print("Liian monta arvausta")
+  
